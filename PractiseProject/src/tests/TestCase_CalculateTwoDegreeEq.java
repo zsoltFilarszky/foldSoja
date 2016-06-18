@@ -1,7 +1,8 @@
 package tests;
 
 import Tasks.SimpleMethodContainerClass;
-import org.junit.Assert;
+
+import junit.framework.Assert;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.junit.runners.Parameterized;
@@ -40,6 +41,6 @@ public class TestCase_CalculateTwoDegreeEq {
 
     @Test
     public void test_CalculateTwoDegreeEq() throws Exception{
-        Assert.assertEquals(expectedResults, SimpleMethodContainerClass.CalculateTwoDegreeEquation(A,B,C));
+        Assert.assertEquals(expectedResults, SimpleMethodContainerClass.CalculateTwoDegreeEquation(A, B, C));
     }
 }

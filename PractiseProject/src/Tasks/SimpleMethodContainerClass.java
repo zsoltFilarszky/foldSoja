@@ -8,7 +8,7 @@ import sun.reflect.generics.reflectiveObjects.NotImplementedException;
 public final class SimpleMethodContainerClass {
 
 
-    public static Integer[] CalculateTwoDegreeEquation(int A, int B, int C) {
+    public static Double[] CalculateTwoDegreeEquation(double A, double B, double C) {
         /*
         #Implementation goes here:
         Ax^2+Bx+C=0
@@ -18,7 +18,7 @@ public final class SimpleMethodContainerClass {
         throw new NotImplementedException();
     }
 
-    public static double CalculateTwoNumbers(int firstNumber, int secondNumber, String operator){
+    public static double CalculateTwoNumbers(int firstNumber, int secondNumber, char operator){
         /*
         firstNumber=5
         secondNumber=2
@@ -41,7 +41,7 @@ public final class SimpleMethodContainerClass {
         throw new NotImplementedException();
     }
 
-    public static int CalculateNumborOfSpecificChar(char character){
+    public static int CalculateNumborOfSpecificChar(String word,char character){
         throw new NotImplementedException();
     }
 }
